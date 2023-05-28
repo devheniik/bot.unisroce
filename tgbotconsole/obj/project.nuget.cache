@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ui99HkDLR2z3ddrH4GvJN4sk9QnkKejfunfYdhDA7MDxnv3p6hfaETYH1htwfBqzDNRLwPDbZNl1TgbRm/Ltcg==",
+  "success": true,
+  "projectFilePath": "/Users/devheniik/Desktop/university/2 sem/prog/course/tgbotconsole/tgbotconsole/tgbotconsole.csproj",
+  "expectedPackageFiles": [
+    "/Users/devheniik/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/devheniik/.nuget/packages/telegram.bot/19.0.0/telegram.bot.19.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
