@@ -295,7 +295,7 @@ namespace tgbotconsole
 
                     if (_Event != null)
                     {
-                        await botClient.SendTextMessageAsync(message.Chat, "Робота успішно оновлено");
+                        await botClient.SendTextMessageAsync(message.Chat, "Робота успішно додана");
                         user.CurrentAction = "";
                         user.SubjectId = null;
                         await MakePutRequest<User>(user.ChatId + "/users/update", user);
@@ -353,7 +353,6 @@ namespace tgbotconsole
                     Chat, 
                     "/start - Розпочати роботу\n " +
                     "/fiot - Побичити группи ФІОТа \n " +
-                    "/lessons - Показати предмети вашої группи \n " +
                     "/create_subjects - додати предмет \n " +
                     "/delete_subjects - видалити предмет \n " +
                     "/subjects - побачити ваші предмети \n " +
